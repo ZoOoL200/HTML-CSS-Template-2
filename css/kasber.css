@@ -264,8 +264,7 @@ header nav .search i:hover{
   background-color: #1f20214f;
   background-image: url(../images/landing.jpg);
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+
 
   -webkit-background-blend-mode: overlay;
   -moz-background-blend-mode: overlay;
@@ -1254,8 +1253,8 @@ footer .container p:last-of-type span{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background: #fff;
     display: flex;
     justify-content: center;
