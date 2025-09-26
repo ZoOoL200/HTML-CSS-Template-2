@@ -200,7 +200,7 @@ header nav ul li a{
   header nav ul{
     display: none;
   }
-  header nav .toggle-menu:hover + ul ,  header nav ul:hover{
+  header nav .toggle-menu:hover + ul ,header nav .toggle-menu:active  ,  header nav ul:hover , header nav ul:active{ 
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -215,7 +215,7 @@ header nav ul li a{
   }
 }
 
-header nav ul li:hover , header nav ul a:hover , header nav ul .active{
+header nav ul li:hover , header nav ul li:active , header nav ul a:hover ,header nav ul a:active, header nav ul .active{
   font-weight: bold;
   border-bottom: 1px solid var(--main-colore , #19c8fa);
   color: var(--main-colore , #19c8fa);
@@ -252,7 +252,7 @@ header nav .search i{
   transition: var(--main-duration , ease .3s);
 }
 
-header nav .search i:hover{
+header nav .search i:hover , header nav .search i:active{
   color: var(--main-colore , #19c8fa);
 } 
 
