@@ -265,22 +265,22 @@ header nav .search i:hover{
   background-image: url(../images/landing.jpg);
   background-size: cover;
 
-
   -webkit-background-blend-mode: overlay;
   -moz-background-blend-mode: overlay;
   -o-background-blend-mode: overlay;
   -ms-background-blend-mode: overlay;
   background-blend-mode: overlay;
 
-  -webkit-object-fit: cover;
-  -moz-object-fit: cover;
-  -o-object-fit: cover;
-  -ms-object-fit: cover;
-  object-fit: cover;
 
   display: flex;
   align-items: center;
   position: relative;
+}
+@media (min-width: 768px){
+  .landing{
+    background-position: center;
+    background-attachment: fixed;
+  }
 }
 .landing .text{
   width: 50%;
@@ -452,12 +452,6 @@ header nav .search i:hover{
   -o-background-blend-mode: overlay;
   -ms-background-blend-mode: overlay;
   background-blend-mode: overlay;
-
-  -webkit-object-fit: cover;
-  -moz-object-fit: cover;
-  -o-object-fit: cover;
-  -ms-object-fit: cover;
-  object-fit: cover;
   
   height: 600px;
   display: flex;
@@ -714,12 +708,6 @@ header nav .search i:hover{
   -o-background-blend-mode: overlay;
   -ms-background-blend-mode: overlay;
   background-blend-mode: overlay;
-
-  -webkit-object-fit: cover;
-  -moz-object-fit: cover;
-  -o-object-fit: cover;
-  -ms-object-fit: cover;
-  object-fit: cover;
 }
 .stac .container{
   display: flex;
